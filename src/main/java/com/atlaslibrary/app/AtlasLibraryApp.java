@@ -18,8 +18,4 @@ public class AtlasLibraryApp extends Application {
         stage.setMinHeight(720);
         stage.show();
     }
-
-    public static void main(String[] args) {
-        launch(args);
-    }
 }

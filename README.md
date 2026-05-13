@@ -28,3 +28,8 @@ mvn javafx:run
 - SQLite schema + migrations
 - Image/text node placement and transforms
 - Anchor creation and navigation
+
+
+## IntelliJ run target
+
+Run `com.atlaslibrary.app.Launcher` as the main class. This avoids the classpath JavaFX launcher error (`JavaFX runtime components are missing`) that can happen when running `Application` subclasses directly in some IDE configurations.

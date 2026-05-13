@@ -39,7 +39,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>com.atlaslibrary.app.AtlasLibraryApp</mainClass>
+                    <mainClass>com.atlaslibrary.app.Launcher</mainClass>
                 </configuration>
             </plugin>
         </plugins>
