@@ -14,4 +14,7 @@ public class AtlasNode {
     public boolean visible = true;
     public boolean locked = false;
     public String content;
+    public double width = 220;
+    public double height = 140;
+    public double fontSize = 18;
 }

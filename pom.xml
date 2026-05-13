@@ -4,7 +4,7 @@
 
     <groupId>com.atlaslibrary</groupId>
     <artifactId>atlas-library</artifactId>
-    <version>0.0.1aa</version>
+    <version>0.0.1ab</version>
     <name>Atlas Library</name>
 
     <properties>

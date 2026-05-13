@@ -20,7 +20,7 @@ public class AtlasBundleService {
         try (OutputStream out = Files.newOutputStream(bundlePath);
              ZipOutputStream zip = new ZipOutputStream(out)) {
             zip.putNextEntry(new ZipEntry("manifest.json"));
-            zip.write(mapper.writeValueAsBytes(Map.of("format", "atlaslib", "version", "v0.0.1aa")));
+            zip.write(mapper.writeValueAsBytes(Map.of("format", "atlaslib", "version", "v0.0.1ab")));
             zip.closeEntry();
 
             zip.putNextEntry(new ZipEntry("db/project.sqlite"));
