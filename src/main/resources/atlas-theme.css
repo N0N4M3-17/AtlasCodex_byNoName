@@ -1,0 +1,56 @@
+.root-pane {
+    -fx-background-color: linear-gradient(to bottom, #0d1420, #0b111b);
+    -fx-font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.top-bar {
+    -fx-background-color: rgba(18, 32, 52, 0.95);
+    -fx-border-color: #2f4668;
+    -fx-border-width: 0 0 1 0;
+}
+
+.button {
+    -fx-background-color: #2f7bdb;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-padding: 7 14;
+}
+
+.button:hover {
+    -fx-background-color: #4d8fe1;
+}
+
+.text-field, .text-area, .list-view {
+    -fx-background-color: #121f32;
+    -fx-text-fill: #dce9ff;
+    -fx-control-inner-background: #121f32;
+    -fx-border-color: #2d4160;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.side-panel {
+    -fx-background-color: rgba(17, 28, 45, 0.93);
+    -fx-border-color: #2b405f;
+    -fx-border-width: 0 1 0 1;
+}
+
+.viewport {
+    -fx-background-color: #0b1320;
+}
+
+.status-bar {
+    -fx-background-color: #101b2c;
+    -fx-border-color: #2f4668;
+    -fx-border-width: 1 0 0 0;
+}
+
+.label {
+    -fx-text-fill: #d7e6ff;
+}
+
+.section-title {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #8fb8ff;
+}
