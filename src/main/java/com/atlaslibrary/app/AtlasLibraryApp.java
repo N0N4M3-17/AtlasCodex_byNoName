@@ -9,7 +9,7 @@ public class AtlasLibraryApp extends Application {
     @Override
     public void start(Stage stage) {
         MainWindow mainWindow = new MainWindow();
-        Scene scene = new Scene(mainWindow.buildRoot(), 1500, 900);
+        Scene scene = new Scene(mainWindow.buildRoot(stage), 1500, 900);
         scene.getStylesheets().add(getClass().getResource("/atlas-theme.css").toExternalForm());
 
         stage.setTitle("Atlas Library - v0.0.1aa");
